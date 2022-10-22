@@ -35,7 +35,7 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/THM_OTT") ], 
+	 [[ InlineKeyboardButton("Support ❤️" ,url="https://t.me/THM_OTT") ], 
 	[InlineKeyboardButton("Owner😎", url="https://t.me/Vinesh_vinu") ]  ]))
 
 
@@ -48,7 +48,7 @@ async def send_doc(client,message):
        	try:
        		await client.get_chat_member(update_channel, user_id)
        	except UserNotParticipant:
-       		await message.reply_text("**__You are not subscribed my channel__** ",
+       		await message.reply_text("**__You are not subscribed To my channel__** ",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
        		[ [ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{update_channel}") ]   ]))
@@ -90,7 +90,7 @@ async def send_doc(client,message):
        		          			await message.reply_text(f'Your Plane Expired On {buy_date}',quote=True)
        		          			
        		          	except Exception as e:
-       		          		await message.reply_text(f"You Can't Rename More Then 2GB file\nBuy Subscription\nOur plane\n* Paid Plane ₹ 25  INR For 26days\nPay using Upi ID ```lokamandc1224@oksbi```\nSend Screnshot To @mrlokaman",quote=True)
+       		          		await message.reply_text(f"You Can't Rename More Then 2GB file\nBuy Subscription\nOur plane\n* Paid Plane ₹ 25  INR For 26days\nPay using  Telegram ```@Vinesh```\nSend Screnshot To @Vinesh",quote=True)
        		          		return
        		          	
        		          	
