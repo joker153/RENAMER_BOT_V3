@@ -1,8 +1,8 @@
-pyrogram==2.0.57
+
 Pillow
 humanize
 hachoir
-pyrogram
+pyrogram==2.0.57
 TgCrypto
 pymongo
 dnspython
