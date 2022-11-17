@@ -36,7 +36,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("Support ❤️" ,url="https://t.me/THM_OTT") ], 
-	[InlineKeyboardButton("Owner😎", url="https://t.me/Vinesh_vinu") ]  ]))
+	[InlineKeyboardButton("Owner😎", url="https://t.me/THM_OTT") ]  ]))
 
 
 
