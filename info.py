@@ -9,3 +9,9 @@ STRING = os.environ.get("STRING", "")
 ADMIN = int(os.environ.get("ADMIN", 923943045))
 
 log_channel = int(os.environ.get("LOG_CHANNEL", ""))
+
+CHANNEL = os.environ.get('CHANNEL',"")
+
+DB_NAME = os.environ.get("DB_NAME","")
+
+DB_URL = os.environ.get("DB_URL","")
