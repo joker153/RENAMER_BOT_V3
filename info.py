@@ -1,3 +1,4 @@
+import os
 from os import environ, getenv
 TOKEN = os.environ.get("TOKEN", "6426072097:AAFpvNEzW65qVT6XwTxzafDLJKFk-Xtbun0")
 
