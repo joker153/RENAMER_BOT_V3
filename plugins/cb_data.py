@@ -7,7 +7,7 @@ from helper.database import find , dateupdate
 import os
 from PIL import Image
 import time
-from info.py import *
+from info import *
 
 
 
