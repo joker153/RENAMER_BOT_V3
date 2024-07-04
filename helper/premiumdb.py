@@ -1,7 +1,7 @@
 import pymongo 
 import os
 from helper.date import add_date
-from info.py import *
+from info import *
 mongo = pymongo.MongoClient(DB_URL)
 db = mongo[DB_NAME]
 dbcol = db["premium"]
