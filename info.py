@@ -7,3 +7,5 @@ API_HASH = os.environ.get("API_HASH", "")
 STRING = os.environ.get("STRING", "")
 
 ADMIN = int(os.environ.get("ADMIN", 923943045))
+
+log_channel = int(os.environ.get("LOG_CHANNEL", ""))
