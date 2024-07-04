@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import Client, compose,idle
 import os
-from info.py import *
+from info import *
 from plugins.cb_data import app as Client2
 
 
