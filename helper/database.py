@@ -1,6 +1,6 @@
 import pymongo 
 import os
-from info.py import *
+from info import *
 
 mongo = pymongo.MongoClient(DB_URL)
 db = mongo[DB_NAME]
