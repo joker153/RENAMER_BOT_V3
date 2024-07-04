@@ -1,4 +1,4 @@
-TOKEN = os.environ.get("TOKEN", "")
+TOKEN = os.environ.get("TOKEN", "6426072097:AAFpvNEzW65qVT6XwTxzafDLJKFk-Xtbun0")
 
 API_ID = int(os.environ.get("API_ID", ""))
 
