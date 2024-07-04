@@ -1,16 +1,10 @@
 import asyncio
 from pyrogram import Client, compose,idle
 import os
-
+from info.py import *
 from plugins.cb_data import app as Client2
 
-TOKEN = os.environ.get("TOKEN", "")
 
-API_ID = int(os.environ.get("API_ID", ""))
-
-API_HASH = os.environ.get("API_HASH", "")
-
-STRING = os.environ.get("STRING", "")
 
 
 bot = Client(
